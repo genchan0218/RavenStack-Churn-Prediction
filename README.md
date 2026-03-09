@@ -17,12 +17,12 @@ Uses account-level behavioral data (feature usage, support tickets, subscription
 ## Structure
 ```
 src/
-  eda/
-    01_eda.R               # Exploratory data analysis & descriptive stats
-  modeling/
-    02_baseline_models.R   # Baseline model comparison (logit, RF, XGBoost)
-    03_extended_analysis.R # Feature engineering stages + hyperparameter tuning
-    04_final_comparison.R  # Final model comparison with corrected XGBoost
+├── eda/
+│   └── 01_eda.R               # Exploratory data analysis & descriptive stats
+└── modeling/
+    ├── 02_baseline_models.R   # Baseline model comparison (logit, RF, XGBoost)
+    ├── 03_extended_analysis.R # Feature engineering stages + hyperparameter tuning
+    └── 04_final_comparison.R  # Final model comparison with corrected XGBoost
 ```
 
 ## Key Features Engineered
