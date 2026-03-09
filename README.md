@@ -75,15 +75,5 @@ Each script outputs results to a `reports/` folder (tables as CSV, plots as PNG)
 - Account age × usage interaction terms
 - Rolling 30/60/90-day activity signals
 
-## Results
-
-| Model | AUC |
-|---|---|
-| Logistic Regression | ~0.82 |
-| Elastic Net | ~0.83 |
-| Random Forest | ~0.87 |
-| XGBoost | ~0.89 |
-| LightGBM (tuned) | ~0.91 |
-
 ## Tech Stack
 - R (data.table, tidyverse, ranger, xgboost, lightgbm, glmnet, pROC)
